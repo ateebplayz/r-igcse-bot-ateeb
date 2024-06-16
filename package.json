@@ -16,7 +16,7 @@
     "discord.js": "^14",
     "humanize-duration": "^3",
     "inquirer": "^9",
-    "mongoose": "^8",
+    "mongoose": "^8.4.1",
     "parse-duration": "^1",
     "redis": "^4",
     "redis-om": "^0.4",

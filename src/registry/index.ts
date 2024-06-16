@@ -101,5 +101,5 @@ export async function syncCommands(client: DiscordClient<true>) {
 			{
 				body: mainGuildCommands,
 			},
-		);
+		)
 }

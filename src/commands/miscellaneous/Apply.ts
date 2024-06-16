@@ -55,13 +55,14 @@ export default class ApplyCommand extends BaseCommand {
 				}
 			})
 			.map((app) => {
+				console.log(app)
 				return new StringSelectMenuOptionBuilder()
 					.setLabel(app.name)
 					.setValue(app.id)
 					.setDescription(app.description)
-					.setEmoji(app.emoji || "");
+					// .setEmoji(app.emoji || "");
 			});
-
+		console.log(options);
 		if (options.length === 0) {
 			await interaction.reply({
 				content:
