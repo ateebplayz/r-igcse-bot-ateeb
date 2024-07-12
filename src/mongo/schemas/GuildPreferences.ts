@@ -20,6 +20,7 @@ export type IGuildPreferences = {
 	hotmResultsEmbedId: string;
 	hostSessionChannelId: string;
 	archiveSessionCategoryId: string;
+	practiceSessionCategoryId: string;
 
 	modmailCreateChannelId: string;
 	modmailThreadsChannelId: string;
@@ -52,6 +53,7 @@ const schema = new Schema<IGuildPreferences>({
 	hotmResultsEmbedId: { type: String, default: null },
 	hostSessionChannelId: { type: String, default: null },
 	archiveSessionCategoryId: { type: String, default: null },
+	practiceSessionCategoryId: { type: String, default: null },
 	modmailCreateChannelId: { type: String, default: null },
 	modmailThreadsChannelId: { type: String, default: null },
 	modmailLogsChannelId: { type: String, default: null },

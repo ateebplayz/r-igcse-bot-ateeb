@@ -469,6 +469,11 @@ export const preferences: Preference[] = [
 		type: "categoryChannel",
 		key: "archiveSessionCategoryId",
 	},
+	{
+		name: "Practice Sessions Category",
+		type: "categoryChannel",
+		key: "practiceSessionCategoryId",
+	},
 ];
 
 interface Subject {
